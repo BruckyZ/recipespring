@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Bootstrap Example</title>
+
+    <meta name="viewport" content="width=device-width, initial-social=1">
+    <!--Latest complied and minified CSS-->
+    <Link rel=stylesheet" href="htpps://maxcdn.bootstrapcdn.com/bootstrap/.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+<!--You can add fonts to your website to make it more attractive. Use google fonts by referencing the css on the google Fonts APIs CDN-->
+    <Link href="https://fonts.googleapis.com/css?family=Shrikhand"rel="stylesheet">
+
+    <!--This is the embedded stylesheet. It contains css that alters the defult styles in the navbar-inverse class, and also addsclass such as
+    shrikhand and standardimage-->
+    <Link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+<!--The navbarcan be defult grey, inverese (black) or transparent. You can change the defult colours by simply adding the style to a custom style sheet and assigning color you would like to the appropriate css classes
+heeps://www.w3schools.com/bootstarp/bootstrap_navbar.asp
+and
+https://getbootstarp.com/docs/3.3/components/#navbar-->
+<!--The below use to change/modify the navigation bar -->
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand">Application Name</a>
+        </div>
+        <ul class="nav navbar-nav">
+                <li><a>Link Two</a></li>
+                <li><a>Link One</a></li>
+                <li><a>Link Three</a></li>
+        </ul>
+
+    </div>
+
+</nav>
+<div class="container">
+    <div class="col-md-12">
+        <h1 class="shrikhand">Crabby Page</h1>
+        <div class="col-md-12"><h3 class="shrikhand">Shrikhand h2
+            </h3></div>
+
+        <div class="col-md-8">
+        </div>
+    </div>
+    <div class="row">
+        <!--Use this calss to force items on the same row
+        Its a 12 col grid-->
+        <div class="col-md-12">
+            <!--When desigining your page, always let your components breath. Add a space as much as possible.-->
+            <img class="standardimage img-thumbnail"src="https://static.pexels.com/photos/39803/pexels-photo-39803.jpeg"
+                 align="left"alt="Apple"/>
+
+            <p>
+            This coloumn has space for a lot of text. I want to make sure that everything is on the same row, even if the text is so much that it overflows.
+            I used <a href="http://www.loremipsumgenerator.com">
+                This loremipsum text generator
+            </a>
+            </p>
+
+            <p>
+            This is the begining of a new paragraph.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+            </p>
+        </div>
+
+<div class="col-md-6">
+    <!--Refer this website to see detail on the col-md selection class..
+    https://getbootstarp.com/doc/3.3/css/-->
+
+    <blockquote>this is a quotation aboout lor..
+    <cite>Wikipedia</cite>
+    </blockquote>
+
+    <p>
+        Refer the website as mentioned under to generat a text instead of texting this paragraph.
+        <a href="http://www.loremipsumgenerator.com">
+
+        </a>
+
+    </p>
+
+    <p>
+        There is another paragraph in here to show as an example also refer the print out given in the class.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+</div>
+</div>
+</div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+</html>
